@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS DOM Events</title>
+  </head>
+  <body>
+    <section>
+      <h1 title="this is a tooltip" onclick="console.log('This is heading');">
+        DOM er special events.....!
+      </h1>
+      <button onclick="console.log(7);">Click Me</button>
+      <button onclick="console.log('Bajlar');">Another button</button>
+      <br /><br />
+      <!-- option 1 -->
+      <button onclick="document.body.style.backgroundColor='yellow'">
+        Make Yellow
+      </button>
+      <!-- option 2 -->
+      <button onclick="makeRed()">Make Red</button>
+      <!-- option 3 -->
+      <button id="make-blue">Make Blue</button>
+      <button id="make-purple">Make Purple</button>
+      <!-- option 4 -->
+      <button id="make-pink">Make Pink</button>
+      <button id="make-green">Make Green</button>
+      <button id="make-orange">Make Orange</button>
+    </section>
+
+    <script src="js/events.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+#body {
+  border: 2px solid green;
+}
+
+#list-container {
+  border: 2px solid blue;
+}
+
+#list-ul {
+  border: 2px solid tomato;
+}
+
+#item-2 {
+  border: 2px solid rebeccapurple;
+}
